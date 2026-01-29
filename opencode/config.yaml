@@ -1,0 +1,13 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: OpenCode Add-on
+version: "1.0.0"
+slug: opencode
+description: OpenCode Add-on
+url: "https://github.com/jpinz/ha-opencode"
+arch:
+  - aarch64
+  - amd64
+init: false
+image: "blob:https://opencode.ai/5b8b3c30-ee6d-486c-9d5a-842335bf48ad"
+ports:
+  4096/tcp: 4096
