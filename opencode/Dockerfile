@@ -1,6 +1,6 @@
 FROM ghcr.io/hassio-addons/base:19.0.0
 
-RUN apk add --no-cache opencode
+RUN curl -fsSL https://opencode.ai/install | bash
 
 EXPOSE 4096
 
